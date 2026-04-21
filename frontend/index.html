@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DԐXTINEL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <main class="shell">
+    <section class="panel hero">
+      <div class="eyebrow">AI + VirusTotal URL Scanner</div>
+      <h1>DԐXTINEL</h1><h3>SCAN THE SITE AVOID THE BITE!</h3>
+      <p class="lede">
+        DԐXTINEL adalah Url Threat Detector atau alat deteksi ancaman berbasis AI yang menggabungkan kekuatan Machine Learning dengan data VirusTotal untuk memberikan analisis komprehensif tentang keamanan URL.
+        Cek apakah sebuah website terlihat aman, phishing, malware, atau Suspicious.
+      </p>
+
+      <div class="input-row">
+        <input id="urlInput" type="text" placeholder="Masukkan URL, misalnya https://contoh.com" />
+        <button id="checkBtn">Scan</button>
+      </div>
+
+      <div id="loading" class="loading hidden">
+        <span class="spinner"></span>
+        Sedang memeriksa...
+      </div>
+    </section>
+
+    <section id="result" class="panel result hidden"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
